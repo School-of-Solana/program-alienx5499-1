@@ -1,0 +1,13 @@
+# Ignore local caches and build output
+.next/
+node_modules/
+coverage/
+*.log
+
+# Editor
+.vscode/
+.idea/
+
+# Env files (set in Vercel UI)
+.env
+.env.*
